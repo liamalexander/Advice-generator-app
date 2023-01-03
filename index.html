@@ -7,10 +7,27 @@
   <title>Advice Generator App</title>
   <link href="/reset.css" rel="stylesheet">
   <link href="/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap'); </style>
 </head>
 <body>
   <main class="main">
-    <!-- ADD NORMAILISE TO CSS - CHECK CSS COURSE NOTES -->
+    <div class="advice-container">
+      <h2 class="advice-number"></h2>
+      <q class="advice-quote"></q>
+      <div class="divider-container">
+        <picture>
+          <source media="(min-width: 460px)" srcset="/img/pattern-divider-desktop.svg"/>
+          <img src="/img/pattern-divider-mobile.svg" alt="Mobile pattern divider" class="dice-img"/>
+        </picture>
+      </div>
+      <div class="btn-container">
+        <button class="btn">
+          <img src="/img/icon-dice.svg" alt="dice button icon" class="btn-dice">
+        </button>
+      </div>
+    </div>
   </main>
     
 </body>
