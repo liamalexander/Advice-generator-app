@@ -41,8 +41,8 @@ body {
   margin: 0.5em 1em;
   font-weight: 800;
   line-height: 1.5;
-  max-height: 20vh;
-  min-height: 20vh;
+  max-height: 25vh;
+  min-height: 25vh;
 }
 
 .divider-container {
