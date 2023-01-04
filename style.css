@@ -18,7 +18,7 @@ body {
 .advice-container {
   background: hsl(217, 19%, 24%);
   width: 90%;
-  height: 35vh;
+  min-height: 45vh;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -40,6 +40,8 @@ body {
   margin: 0.5em 1em;
   font-weight: 800;
   line-height: 1.5;
+  max-height: 20vh;
+  min-height: 20vh;
 }
 
 .divider-container {
@@ -53,7 +55,7 @@ body {
 .btn-container {
   display: flex;
   justify-content: center;
-  margin: 2em;
+  margin: 1em;
 }
 
 .btn {
@@ -73,3 +75,5 @@ body {
 .btn:checked {
   transform: translateY(0.25em);
 } */
+
+/* add blur effect to btn on hover */

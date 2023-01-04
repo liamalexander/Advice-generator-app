@@ -15,7 +15,3 @@ const getData = async function () {
 btn.addEventListener("click", getData);
 
 getData();
-
-// FIX POSITION OF BTN - FIND ADVICE ONLINE
-// CHANGE COLOUR ON HOVER AND AFTER AFFECT OF CLICKING (RETURN TO NORMAL PLACE)
-// DO DESKTOP VERSION
